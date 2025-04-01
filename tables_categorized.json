@@ -1,0 +1,1137 @@
+{
+    "In this article": {},
+    "Azure services DNS zone configuration": {},
+    "Commercial": {
+        "Azure Machine Learning (Microsoft.MachineLearningServices/workspaces)": [
+            {
+                "Private link resource type": "Azure Machine Learning (Microsoft.MachineLearningServices/workspaces)",
+                "Subresource": "amlworkspace",
+                "Private DNS zone name": "privatelink.api.azureml.msprivatelink.notebooks.azure.net",
+                "Public DNS zone forwarders": "api.azureml.msnotebooks.azure.netinstances.azureml.msaznbcontent.netinference.ml.azure.com"
+            },
+            {
+                "Private link resource type": "Azure AI services (Microsoft.CognitiveServices/accounts)",
+                "Subresource": "account",
+                "Private DNS zone name": "privatelink.cognitiveservices.azure.comprivatelink.openai.azure.comprivatelink.services.ai.azure.com",
+                "Public DNS zone forwarders": "cognitiveservices.azure.comopenai.azure.comservices.ai.azure.com"
+            },
+            {
+                "Private link resource type": "Azure Bot Service (Microsoft.BotService/botServices)",
+                "Subresource": "Bot",
+                "Private DNS zone name": "privatelink.directline.botframework.com",
+                "Public DNS zone forwarders": "directline.botframework.com"
+            },
+            {
+                "Private link resource type": "Azure Bot Service (Microsoft.BotService/botServices)",
+                "Subresource": "Token",
+                "Private DNS zone name": "privatelink.token.botframework.com",
+                "Public DNS zone forwarders": "token.botframework.com"
+            }
+        ],
+        "Azure Synapse Analytics (Microsoft.Synapse/workspaces)": [
+            {
+                "Private link resource type": "Azure Synapse Analytics (Microsoft.Synapse/workspaces)",
+                "Subresource": "Sql",
+                "Private DNS zone name": "privatelink.sql.azuresynapse.net",
+                "Public DNS zone forwarders": "sql.azuresynapse.net"
+            },
+            {
+                "Private link resource type": "Azure Synapse Analytics (Microsoft.Synapse/workspaces)",
+                "Subresource": "SqlOnDemand",
+                "Private DNS zone name": "privatelink.sql.azuresynapse.net",
+                "Public DNS zone forwarders": "sql.azuresynapse.net"
+            },
+            {
+                "Private link resource type": "Azure Synapse Analytics (Microsoft.Synapse/workspaces)",
+                "Subresource": "Dev",
+                "Private DNS zone name": "privatelink.dev.azuresynapse.net",
+                "Public DNS zone forwarders": "dev.azuresynapse.net"
+            },
+            {
+                "Private link resource type": "Azure Synapse Studio (Microsoft.Synapse/privateLinkHubs)",
+                "Subresource": "Web",
+                "Private DNS zone name": "privatelink.azuresynapse.net",
+                "Public DNS zone forwarders": "azuresynapse.net"
+            },
+            {
+                "Private link resource type": "Azure Event Hubs (Microsoft.EventHub/namespaces)",
+                "Subresource": "namespace",
+                "Private DNS zone name": "privatelink.servicebus.windows.net",
+                "Public DNS zone forwarders": "servicebus.windows.net"
+            },
+            {
+                "Private link resource type": "Azure Service Bus (Microsoft.ServiceBus/namespaces)",
+                "Subresource": "namespace",
+                "Private DNS zone name": "privatelink.servicebus.windows.net",
+                "Public DNS zone forwarders": "servicebus.windows.net"
+            },
+            {
+                "Private link resource type": "Azure Data Factory (Microsoft.DataFactory/factories)",
+                "Subresource": "dataFactory",
+                "Private DNS zone name": "privatelink.datafactory.azure.net",
+                "Public DNS zone forwarders": "datafactory.azure.net"
+            },
+            {
+                "Private link resource type": "Azure Data Factory (Microsoft.DataFactory/factories)",
+                "Subresource": "portal",
+                "Private DNS zone name": "privatelink.adf.azure.com",
+                "Public DNS zone forwarders": "adf.azure.com"
+            },
+            {
+                "Private link resource type": "Azure HDInsight (Microsoft.HDInsight/clusters)",
+                "Subresource": "gatewayheadnode",
+                "Private DNS zone name": "privatelink.azurehdinsight.net",
+                "Public DNS zone forwarders": "azurehdinsight.net"
+            },
+            {
+                "Private link resource type": "Azure Data Explorer (Microsoft.Kusto/Clusters)",
+                "Subresource": "cluster",
+                "Private DNS zone name": "privatelink.{regionName}.kusto.windows.netprivatelink.blob.core.windows.netprivatelink.queue.core.windows.netprivatelink.table.core.windows.net",
+                "Public DNS zone forwarders": "{regionName}.kusto.windows.netblob.core.windows.netqueue.core.windows.nettable.core.windows.net"
+            },
+            {
+                "Private link resource type": "Microsoft Power BI (Microsoft.PowerBI/privateLinkServicesForPowerBI)",
+                "Subresource": "tenant",
+                "Private DNS zone name": "privatelink.analysis.windows.netprivatelink.pbidedicated.windows.netprivatelink.tip1.powerquery.microsoft.com",
+                "Public DNS zone forwarders": "analysis.windows.netpbidedicated.windows.nettip1.powerquery.microsoft.com"
+            },
+            {
+                "Private link resource type": "Azure Databricks (Microsoft.Databricks/workspaces)",
+                "Subresource": "databricks_ui_apibrowser_authentication",
+                "Private DNS zone name": "privatelink.azuredatabricks.net",
+                "Public DNS zone forwarders": "azuredatabricks.net"
+            }
+        ],
+        "Azure Batch (Microsoft.Batch/batchAccounts)": [
+            {
+                "Private link resource type": "Azure Batch (Microsoft.Batch/batchAccounts)",
+                "Subresource": "batchAccount",
+                "Private DNS zone name": "privatelink.batch.azure.com",
+                "Public DNS zone forwarders": "{regionName}.batch.azure.com"
+            },
+            {
+                "Private link resource type": "Azure Batch (Microsoft.Batch/batchAccounts)",
+                "Subresource": "nodeManagement",
+                "Private DNS zone name": "privatelink.batch.azure.com",
+                "Public DNS zone forwarders": "{regionName}.service.batch.azure.com"
+            },
+            {
+                "Private link resource type": "Azure Virtual Desktop (Microsoft.DesktopVirtualization/workspaces)",
+                "Subresource": "global",
+                "Private DNS zone name": "privatelink-global.wvd.microsoft.com",
+                "Public DNS zone forwarders": "wvd.microsoft.com"
+            },
+            {
+                "Private link resource type": "Azure Virtual Desktop (Microsoft.DesktopVirtualization/workspaces)",
+                "Subresource": "feed",
+                "Private DNS zone name": "privatelink.wvd.microsoft.com",
+                "Public DNS zone forwarders": "wvd.microsoft.com"
+            },
+            {
+                "Private link resource type": "Azure Virtual Desktop (Microsoft.DesktopVirtualization/hostpools)",
+                "Subresource": "connection",
+                "Private DNS zone name": "privatelink.wvd.microsoft.com",
+                "Public DNS zone forwarders": "wvd.microsoft.com"
+            }
+        ],
+        "Azure Kubernetes Service - Kubernetes API (Microsoft.ContainerService/managedClusters)": [
+            {
+                "Private link resource type": "Azure Kubernetes Service - Kubernetes API (Microsoft.ContainerService/managedClusters)",
+                "Subresource": "management",
+                "Private DNS zone name": "privatelink.{regionName}.azmk8s.io{subzone}.privatelink.{regionName}.azmk8s.io",
+                "Public DNS zone forwarders": "{regionName}.azmk8s.io"
+            },
+            {
+                "Private link resource type": "Azure Container Apps (Microsoft.App/ManagedEnvironments)",
+                "Subresource": "managedEnvironments",
+                "Private DNS zone name": "privatelink.{regionName}.azurecontainerapps.io",
+                "Public DNS zone forwarders": "azurecontainerapps.io"
+            },
+            {
+                "Private link resource type": "Azure Container Registry (Microsoft.ContainerRegistry/registries)",
+                "Subresource": "registry",
+                "Private DNS zone name": "privatelink.azurecr.io{regionName}.data.privatelink.azurecr.io",
+                "Public DNS zone forwarders": "azurecr.io{regionName}.data.azurecr.io"
+            }
+        ],
+        "Azure SQL Database (Microsoft.Sql/servers)": [
+            {
+                "Private link resource type": "Azure SQL Database (Microsoft.Sql/servers)",
+                "Subresource": "sqlServer",
+                "Private DNS zone name": "privatelink.database.windows.net",
+                "Public DNS zone forwarders": "database.windows.net"
+            },
+            {
+                "Private link resource type": "Azure SQL Managed Instance (Microsoft.Sql/managedInstances)",
+                "Subresource": "managedInstance",
+                "Private DNS zone name": "privatelink.{dnsPrefix}.database.windows.net",
+                "Public DNS zone forwarders": "{instanceName}.{dnsPrefix}.database.windows.net"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "Sql",
+                "Private DNS zone name": "privatelink.documents.azure.com",
+                "Public DNS zone forwarders": "documents.azure.com"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "MongoDB",
+                "Private DNS zone name": "privatelink.mongo.cosmos.azure.com",
+                "Public DNS zone forwarders": "mongo.cosmos.azure.com"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "Cassandra",
+                "Private DNS zone name": "privatelink.cassandra.cosmos.azure.com",
+                "Public DNS zone forwarders": "cassandra.cosmos.azure.com"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "Gremlin",
+                "Private DNS zone name": "privatelink.gremlin.cosmos.azure.com",
+                "Public DNS zone forwarders": "gremlin.cosmos.azure.com"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "Table",
+                "Private DNS zone name": "privatelink.table.cosmos.azure.com",
+                "Public DNS zone forwarders": "table.cosmos.azure.com"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "Analytical",
+                "Private DNS zone name": "privatelink.analytics.cosmos.azure.com",
+                "Public DNS zone forwarders": "analytics.cosmos.azure.com"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DBforPostgreSQL/serverGroupsv2)",
+                "Subresource": "coordinator",
+                "Private DNS zone name": "privatelink.postgres.cosmos.azure.com",
+                "Public DNS zone forwarders": "postgres.cosmos.azure.com"
+            },
+            {
+                "Private link resource type": "Azure Database for PostgreSQL - Single server (Microsoft.DBforPostgreSQL/servers)",
+                "Subresource": "postgresqlServer",
+                "Private DNS zone name": "privatelink.postgres.database.azure.com",
+                "Public DNS zone forwarders": "postgres.database.azure.com"
+            },
+            {
+                "Private link resource type": "Azure Database for PostgreSQL - Flexible server (Microsoft.DBforPostgreSQL/flexibleServers)",
+                "Subresource": "postgresqlServer",
+                "Private DNS zone name": "privatelink.postgres.database.azure.com",
+                "Public DNS zone forwarders": "postgres.database.azure.com"
+            },
+            {
+                "Private link resource type": "Azure Database for MySQL - Single Server (Microsoft.DBforMySQL/servers)",
+                "Subresource": "mysqlServer",
+                "Private DNS zone name": "privatelink.mysql.database.azure.com",
+                "Public DNS zone forwarders": "mysql.database.azure.com"
+            },
+            {
+                "Private link resource type": "Azure Database for MySQL - Flexible Server (Microsoft.DBforMySQL/flexibleServers)",
+                "Subresource": "mysqlServer",
+                "Private DNS zone name": "privatelink.mysql.database.azure.com",
+                "Public DNS zone forwarders": "mysql.database.azure.com"
+            },
+            {
+                "Private link resource type": "Azure Database for MariaDB (Microsoft.DBforMariaDB/servers)",
+                "Subresource": "mariadbServer",
+                "Private DNS zone name": "privatelink.mariadb.database.azure.com",
+                "Public DNS zone forwarders": "mariadb.database.azure.com"
+            },
+            {
+                "Private link resource type": "Azure Cache for Redis (Microsoft.Cache/Redis)",
+                "Subresource": "redisCache",
+                "Private DNS zone name": "privatelink.redis.cache.windows.net",
+                "Public DNS zone forwarders": "redis.cache.windows.net"
+            },
+            {
+                "Private link resource type": "Azure Cache for Redis Enterprise (Microsoft.Cache/RedisEnterprise)",
+                "Subresource": "redisEnterprise",
+                "Private DNS zone name": "privatelink.redisenterprise.cache.azure.net",
+                "Public DNS zone forwarders": "redisenterprise.cache.azure.net"
+            },
+            {
+                "Private link resource type": "Azure Managed Redis (Microsoft.Cache/RedisEnterprise)",
+                "Subresource": "redisEnterprise",
+                "Private DNS zone name": "privatelink.redis.azure.net",
+                "Public DNS zone forwarders": "{instanceName}.{region}.redis.azure.net"
+            }
+        ],
+        "Azure Arc (Microsoft.HybridCompute/privateLinkScopes)": [
+            {
+                "Private link resource type": "Azure Arc (Microsoft.HybridCompute/privateLinkScopes)",
+                "Subresource": "hybridcompute",
+                "Private DNS zone name": "privatelink.his.arc.azure.comprivatelink.guestconfiguration.azure.comprivatelink.dp.kubernetesconfiguration.azure.com",
+                "Public DNS zone forwarders": "his.arc.azure.comguestconfiguration.azure.comdp.kubernetesconfiguration.azure.com"
+            }
+        ],
+        "Azure Service Bus (Microsoft.ServiceBus/namespaces)": [
+            {
+                "Private link resource type": "Azure Service Bus (Microsoft.ServiceBus/namespaces)",
+                "Subresource": "namespace",
+                "Private DNS zone name": "privatelink.servicebus.windows.net",
+                "Public DNS zone forwarders": "servicebus.windows.net"
+            },
+            {
+                "Private link resource type": "Azure Event Grid (Microsoft.EventGrid/topics)",
+                "Subresource": "topic",
+                "Private DNS zone name": "privatelink.eventgrid.azure.net",
+                "Public DNS zone forwarders": "eventgrid.azure.net"
+            },
+            {
+                "Private link resource type": "Azure Event Grid (Microsoft.EventGrid/domains)",
+                "Subresource": "domain",
+                "Private DNS zone name": "privatelink.eventgrid.azure.net",
+                "Public DNS zone forwarders": "eventgrid.azure.net"
+            },
+            {
+                "Private link resource type": "Azure Event Grid (Microsoft.EventGrid/namespaces)",
+                "Subresource": "topic",
+                "Private DNS zone name": "privatelink.eventgrid.azure.net",
+                "Public DNS zone forwarders": "eventgrid.azure.net"
+            },
+            {
+                "Private link resource type": "Azure Event Grid (Microsoft.EventGrid/namespaces/topicSpace)",
+                "Subresource": "topicSpace",
+                "Private DNS zone name": "privatelink.ts.eventgrid.azure.net",
+                "Public DNS zone forwarders": "eventgrid.azure.net"
+            },
+            {
+                "Private link resource type": "Azure Event Grid (Microsoft.EventGrid/partnerNamespaces)",
+                "Subresource": "partnernamespace",
+                "Private DNS zone name": "privatelink.eventgrid.azure.net",
+                "Public DNS zone forwarders": "eventgrid.azure.net"
+            },
+            {
+                "Private link resource type": "Azure API Management (Microsoft.ApiManagement/service)",
+                "Subresource": "Gateway",
+                "Private DNS zone name": "privatelink.azure-api.net",
+                "Public DNS zone forwarders": "azure-api.net"
+            },
+            {
+                "Private link resource type": "Azure Health Data Services (Microsoft.HealthcareApis/workspaces)",
+                "Subresource": "healthcareworkspace",
+                "Private DNS zone name": "privatelink.workspace.azurehealthcareapis.comprivatelink.fhir.azurehealthcareapis.comprivatelink.dicom.azurehealthcareapis.com",
+                "Public DNS zone forwarders": "workspace.azurehealthcareapis.comfhir.azurehealthcareapis.comdicom.azurehealthcareapis.com"
+            }
+        ],
+        "Azure IoT Hub (Microsoft.Devices/IotHubs)": [
+            {
+                "Private link resource type": "Azure IoT Hub (Microsoft.Devices/IotHubs)",
+                "Subresource": "iotHub",
+                "Private DNS zone name": "privatelink.azure-devices.netprivatelink.servicebus.windows.net1",
+                "Public DNS zone forwarders": "azure-devices.netservicebus.windows.net"
+            },
+            {
+                "Private link resource type": "Azure IoT Hub Device Provisioning Service (Microsoft.Devices/ProvisioningServices)",
+                "Subresource": "iotDps",
+                "Private DNS zone name": "privatelink.azure-devices-provisioning.net",
+                "Public DNS zone forwarders": "azure-devices-provisioning.net"
+            },
+            {
+                "Private link resource type": "Device Update for IoT Hubs (Microsoft.DeviceUpdate/accounts)",
+                "Subresource": "DeviceUpdate",
+                "Private DNS zone name": "privatelink.api.adu.microsoft.com",
+                "Public DNS zone forwarders": "api.adu.microsoft.com"
+            },
+            {
+                "Private link resource type": "Azure IoT Central (Microsoft.IoTCentral/IoTApps)",
+                "Subresource": "iotApp",
+                "Private DNS zone name": "privatelink.azureiotcentral.com",
+                "Public DNS zone forwarders": "azureiotcentral.com"
+            },
+            {
+                "Private link resource type": "Azure Digital Twins (Microsoft.DigitalTwins/digitalTwinsInstances)",
+                "Subresource": "API",
+                "Private DNS zone name": "privatelink.digitaltwins.azure.net",
+                "Public DNS zone forwarders": "digitaltwins.azure.net"
+            }
+        ],
+        "Azure Media Services (Microsoft.Media/mediaservices)": [
+            {
+                "Private link resource type": "Azure Media Services (Microsoft.Media/mediaservices)",
+                "Subresource": "keydeliveryliveeventstreamingendpoint",
+                "Private DNS zone name": "privatelink.media.azure.net",
+                "Public DNS zone forwarders": "media.azure.net"
+            }
+        ],
+        "Azure Automation (Microsoft.Automation/automationAccounts)": [
+            {
+                "Private link resource type": "Azure Automation (Microsoft.Automation/automationAccounts)",
+                "Subresource": "WebhookDSCAndHybridWorker",
+                "Private DNS zone name": "privatelink.azure-automation.net",
+                "Public DNS zone forwarders": "{regionCode}.azure-automation.net"
+            },
+            {
+                "Private link resource type": "Azure Backup (Microsoft.RecoveryServices/vaults)",
+                "Subresource": "AzureBackup",
+                "Private DNS zone name": "privatelink.{regionCode}.backup.windowsazure.com",
+                "Public DNS zone forwarders": "{regionCode}.backup.windowsazure.com"
+            },
+            {
+                "Private link resource type": "Azure Site Recovery (Microsoft.RecoveryServices/vaults)",
+                "Subresource": "AzureSiteRecovery",
+                "Private DNS zone name": "privatelink.siterecovery.windowsazure.com",
+                "Public DNS zone forwarders": "{regionCode}.siterecovery.windowsazure.com"
+            },
+            {
+                "Private link resource type": "Azure Monitor (Microsoft.Insights/privateLinkScopes)",
+                "Subresource": "azuremonitor",
+                "Private DNS zone name": "privatelink.monitor.azure.comprivatelink.oms.opinsights.azure.comprivatelink.ods.opinsights.azure.comprivatelink.agentsvc.azure-automation.netprivatelink.blob.core.windows.net",
+                "Public DNS zone forwarders": "monitor.azure.comoms.opinsights.azure.comods.opinsights.azure.comagentsvc.azure-automation.netblob.core.windows.netservices.visualstudio.comapplicationinsights.azure.com"
+            },
+            {
+                "Private link resource type": "Microsoft Purview (Microsoft.Purview/accounts)",
+                "Subresource": "account",
+                "Private DNS zone name": "privatelink.purview.azure.com",
+                "Public DNS zone forwarders": "purview.azure.com"
+            },
+            {
+                "Private link resource type": "Microsoft Purview (Microsoft.Purview/accounts)",
+                "Subresource": "portal",
+                "Private DNS zone name": "privatelink.purviewstudio.azure.com",
+                "Public DNS zone forwarders": "purviewstudio.azure.com"
+            },
+            {
+                "Private link resource type": "Microsoft Purview (Microsoft.Purview/accounts)",
+                "Subresource": "platform",
+                "Private DNS zone name": "privatelink.purview-service.microsoft.com",
+                "Public DNS zone forwarders": "purview-service.microsoft.com"
+            },
+            {
+                "Private link resource type": "Azure Migrate (Microsoft.Migrate/migrateProjects)",
+                "Subresource": "Default",
+                "Private DNS zone name": "privatelink.prod.migration.windowsazure.com",
+                "Public DNS zone forwarders": "prod.migration.windowsazure.com"
+            },
+            {
+                "Private link resource type": "Azure Migrate (Microsoft.Migrate/assessmentProjects)",
+                "Subresource": "Default",
+                "Private DNS zone name": "privatelink.prod.migration.windowsazure.com",
+                "Public DNS zone forwarders": "prod.migration.windowsazure.com"
+            },
+            {
+                "Private link resource type": "Azure Resource Manager (Microsoft.Authorization/resourceManagementPrivateLinks)",
+                "Subresource": "ResourceManagement",
+                "Private DNS zone name": "privatelink.azure.com",
+                "Public DNS zone forwarders": "azure.com"
+            },
+            {
+                "Private link resource type": "Azure Managed Grafana (Microsoft.Dashboard/grafana)",
+                "Subresource": "grafana",
+                "Private DNS zone name": "privatelink.grafana.azure.com",
+                "Public DNS zone forwarders": "grafana.azure.com"
+            }
+        ],
+        "Azure Key Vault (Microsoft.KeyVault/vaults)": [
+            {
+                "Private link resource type": "Azure Key Vault (Microsoft.KeyVault/vaults)",
+                "Subresource": "vault",
+                "Private DNS zone name": "privatelink.vaultcore.azure.net",
+                "Public DNS zone forwarders": "vault.azure.netvaultcore.azure.net"
+            },
+            {
+                "Private link resource type": "Azure Key Vault (Microsoft.KeyVault/managedHSMs)",
+                "Subresource": "managedhsm",
+                "Private DNS zone name": "privatelink.managedhsm.azure.net",
+                "Public DNS zone forwarders": "managedhsm.azure.net"
+            },
+            {
+                "Private link resource type": "Azure App Configuration (Microsoft.AppConfiguration/configurationStores)",
+                "Subresource": "configurationStores",
+                "Private DNS zone name": "privatelink.azconfig.io",
+                "Public DNS zone forwarders": "azconfig.io"
+            },
+            {
+                "Private link resource type": "Azure Attestation (Microsoft.Attestation/attestationProviders)",
+                "Subresource": "standard",
+                "Private DNS zone name": "privatelink.attest.azure.net",
+                "Public DNS zone forwarders": "attest.azure.net"
+            }
+        ],
+        "Storage account (Microsoft.Storage/storageAccounts)": [
+            {
+                "Private link resource type": "Storage account (Microsoft.Storage/storageAccounts)",
+                "Subresource": "blobblob_secondary",
+                "Private DNS zone name": "privatelink.blob.core.windows.net",
+                "Public DNS zone forwarders": "blob.core.windows.net"
+            },
+            {
+                "Private link resource type": "Storage account (Microsoft.Storage/storageAccounts)",
+                "Subresource": "tabletable_secondary",
+                "Private DNS zone name": "privatelink.table.core.windows.net",
+                "Public DNS zone forwarders": "table.core.windows.net"
+            },
+            {
+                "Private link resource type": "Storage account (Microsoft.Storage/storageAccounts)",
+                "Subresource": "queuequeue_secondary",
+                "Private DNS zone name": "privatelink.queue.core.windows.net",
+                "Public DNS zone forwarders": "queue.core.windows.net"
+            },
+            {
+                "Private link resource type": "Storage account (Microsoft.Storage/storageAccounts)",
+                "Subresource": "file",
+                "Private DNS zone name": "privatelink.file.core.windows.net",
+                "Public DNS zone forwarders": "file.core.windows.net"
+            },
+            {
+                "Private link resource type": "Storage account (Microsoft.Storage/storageAccounts)",
+                "Subresource": "webweb_secondary",
+                "Private DNS zone name": "privatelink.web.core.windows.net",
+                "Public DNS zone forwarders": "web.core.windows.net"
+            },
+            {
+                "Private link resource type": "Azure Data Lake File System Gen2 (Microsoft.Storage/storageAccounts)",
+                "Subresource": "dfsdfs_secondary",
+                "Private DNS zone name": "privatelink.dfs.core.windows.net",
+                "Public DNS zone forwarders": "dfs.core.windows.net"
+            },
+            {
+                "Private link resource type": "Azure File Sync (Microsoft.StorageSync/storageSyncServices)",
+                "Subresource": "afs",
+                "Private DNS zone name": "privatelink.afs.azure.net",
+                "Public DNS zone forwarders": "afs.azure.net"
+            },
+            {
+                "Private link resource type": "Azure Managed Disks (Microsoft.Compute/diskAccesses)",
+                "Subresource": "disks",
+                "Private DNS zone name": "privatelink.blob.core.windows.net",
+                "Public DNS zone forwarders": "blob.core.windows.net"
+            }
+        ],
+        "Azure Search (Microsoft.Search/searchServices)": [
+            {
+                "Private link resource type": "Azure Search (Microsoft.Search/searchServices)",
+                "Subresource": "searchService",
+                "Private DNS zone name": "privatelink.search.windows.net",
+                "Public DNS zone forwarders": "search.windows.net"
+            },
+            {
+                "Private link resource type": "Azure Relay (Microsoft.Relay/namespaces)",
+                "Subresource": "namespace",
+                "Private DNS zone name": "privatelink.servicebus.windows.net",
+                "Public DNS zone forwarders": "servicebus.windows.net"
+            },
+            {
+                "Private link resource type": "Azure Web Apps - Azure Function Apps (Microsoft.Web/sites)",
+                "Subresource": "sites",
+                "Private DNS zone name": "privatelink.azurewebsites.netscm.privatelink.azurewebsites.net2",
+                "Public DNS zone forwarders": "azurewebsites.netscm.azurewebsites.net"
+            },
+            {
+                "Private link resource type": "SignalR (Microsoft.SignalRService/SignalR)",
+                "Subresource": "signalr",
+                "Private DNS zone name": "privatelink.service.signalr.net",
+                "Public DNS zone forwarders": "service.signalr.net"
+            },
+            {
+                "Private link resource type": "Azure Static Web Apps (Microsoft.Web/staticSites)",
+                "Subresource": "staticSites",
+                "Private DNS zone name": "privatelink.azurestaticapps.netprivatelink.{partitionId}.azurestaticapps.net",
+                "Public DNS zone forwarders": "azurestaticapps.net{partitionId}.azurestaticapps.net"
+            },
+            {
+                "Private link resource type": "Azure Event Hubs (Microsoft.EventHub/namespaces)",
+                "Subresource": "namespace",
+                "Private DNS zone name": "privatelink.servicebus.windows.net",
+                "Public DNS zone forwarders": "servicebus.windows.net"
+            },
+            {
+                "Private link resource type": "Azure Web PubSub service (Microsoft.SignalRService/WebPubSub)",
+                "Subresource": "webpubsub",
+                "Private DNS zone name": "privatelink.webpubsub.azure.com",
+                "Public DNS zone forwarders": "webpubsub.azure.com"
+            }
+        ]
+    },
+    "Government": {
+        "Azure AI services (Microsoft.CognitiveServices/accounts)": [
+            {
+                "Private link resource type": "Azure AI services (Microsoft.CognitiveServices/accounts)",
+                "Subresource": "account",
+                "Private DNS zone name": "privatelink.cognitiveservices.azure.us",
+                "Public DNS zone forwarders": "cognitiveservices.azure.us"
+            },
+            {
+                "Private link resource type": "Azure Machine Learning (Microsoft.MachineLearningServices/workspaces)",
+                "Subresource": "amlworkspace",
+                "Private DNS zone name": "privatelink.api.ml.azure.usprivatelink.notebooks.usgovcloudapi.net",
+                "Public DNS zone forwarders": "api.ml.azure.usnotebooks.usgovcloudapi.netinstances.azureml.usaznbcontent.netinference.ml.azure.us"
+            }
+        ],
+        "Azure Event Hubs (Microsoft.EventHub/namespaces)": [
+            {
+                "Private link resource type": "Azure Event Hubs (Microsoft.EventHub/namespaces)",
+                "Subresource": "namespace",
+                "Private DNS zone name": "privatelink.servicebus.usgovcloudapi.net",
+                "Public DNS zone forwarders": "servicebus.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Synapse Analytics (Microsoft.Synapse/workspaces)",
+                "Subresource": "Sql",
+                "Private DNS zone name": "privatelink.sql.azuresynapse.usgovcloudapi.net",
+                "Public DNS zone forwarders": "sql.azuresynapse.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Synapse Analytics (Microsoft.Synapse/workspaces)",
+                "Subresource": "SqlOnDemand",
+                "Private DNS zone name": "privatelink.sql.azuresynapse.usgovcloudapi.net",
+                "Public DNS zone forwarders": "{workspaceName}-ondemand.sql.azuresynapse.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Synapse Analytics (Microsoft.Synapse/workspaces)",
+                "Subresource": "Dev",
+                "Private DNS zone name": "privatelink.dev.azuresynapse.usgovcloudapi.net",
+                "Public DNS zone forwarders": "dev.azuresynapse.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Synapse Studio (Microsoft.Synapse/privateLinkHubs)",
+                "Subresource": "Web",
+                "Private DNS zone name": "privatelink.azuresynapse.usgovcloudapi.net",
+                "Public DNS zone forwarders": "azuresynapse.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Data Factory (Microsoft.DataFactory/factories)",
+                "Subresource": "dataFactory",
+                "Private DNS zone name": "privatelink.datafactory.azure.us",
+                "Public DNS zone forwarders": "datafactory.azure.us"
+            },
+            {
+                "Private link resource type": "Azure Data Factory (Microsoft.DataFactory/factories)",
+                "Subresource": "portal",
+                "Private DNS zone name": "privatelink.adf.azure.us",
+                "Public DNS zone forwarders": "adf.azure.us"
+            },
+            {
+                "Private link resource type": "Azure HDInsight (Microsoft.HDInsight)",
+                "Subresource": "gatewayheadnode",
+                "Private DNS zone name": "privatelink.azurehdinsight.us",
+                "Public DNS zone forwarders": "azurehdinsight.us"
+            },
+            {
+                "Private link resource type": "Azure Databricks (Microsoft.Databricks/workspaces)",
+                "Subresource": "databricks_ui_apibrowser_authentication",
+                "Private DNS zone name": "privatelink.databricks.azure.us",
+                "Public DNS zone forwarders": "databricks.azure.us"
+            }
+        ],
+        "Azure Batch (Microsoft.Batch/batchAccounts)": [
+            {
+                "Private link resource type": "Azure Batch (Microsoft.Batch/batchAccounts)",
+                "Subresource": "batchAccount",
+                "Private DNS zone name": "privatelink.batch.usgovcloudapi.net",
+                "Public DNS zone forwarders": "{regionName}.batch.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Batch (Microsoft.Batch/batchAccounts)",
+                "Subresource": "nodeManagement",
+                "Private DNS zone name": "privatelink.batch.usgovcloudapi.net",
+                "Public DNS zone forwarders": "{regionName}.service.batch.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Virtual Desktop (Microsoft.DesktopVirtualization/workspaces)",
+                "Subresource": "global",
+                "Private DNS zone name": "privatelink-global.wvd.azure.us",
+                "Public DNS zone forwarders": "wvd.azure.us"
+            },
+            {
+                "Private link resource type": "Azure Virtual Desktop (Microsoft.DesktopVirtualization/workspacesMicrosoft.DesktopVirtualization/hostpools)",
+                "Subresource": "feedconnection",
+                "Private DNS zone name": "privatelink.wvd.azure.us",
+                "Public DNS zone forwarders": "wvd.azure.us"
+            }
+        ],
+        "Azure Container Registry (Microsoft.ContainerRegistry/registries)": [
+            {
+                "Private link resource type": "Azure Container Registry (Microsoft.ContainerRegistry/registries)",
+                "Subresource": "registry",
+                "Private DNS zone name": "privatelink.azurecr.us{regionName}.privatelink.azurecr.us",
+                "Public DNS zone forwarders": "azurecr.us{regionName}.azurecr.us"
+            }
+        ],
+        "Azure SQL Database (Microsoft.Sql/servers)": [
+            {
+                "Private link resource type": "Azure SQL Database (Microsoft.Sql/servers)",
+                "Subresource": "sqlServer",
+                "Private DNS zone name": "privatelink.database.usgovcloudapi.net",
+                "Public DNS zone forwarders": "database.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure SQL Managed Instance (Microsoft.Sql/managedInstances)",
+                "Subresource": "managedInstance",
+                "Private DNS zone name": "privatelink.{dnsPrefix}.database.usgovcloudapi.net",
+                "Public DNS zone forwarders": "{instanceName}.{dnsPrefix}.database.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "Sql",
+                "Private DNS zone name": "privatelink.documents.azure.us",
+                "Public DNS zone forwarders": "documents.azure.us"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "MongoDB",
+                "Private DNS zone name": "privatelink.mongo.cosmos.azure.us",
+                "Public DNS zone forwarders": "mongo.cosmos.azure.us"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "Cassandra",
+                "Private DNS zone name": "privatelink.cassandra.cosmos.azure.us",
+                "Public DNS zone forwarders": "cassandra.cosmos.azure.us"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "Gremlin",
+                "Private DNS zone name": "privatelink.gremlin.cosmos.azure.us",
+                "Public DNS zone forwarders": "gremlin.cosmos.azure.us"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "Table",
+                "Private DNS zone name": "privatelink.table.cosmos.azure.us",
+                "Public DNS zone forwarders": "table.cosmos.azure.us"
+            },
+            {
+                "Private link resource type": "Azure Database for PostgreSQL - Single server (Microsoft.DBforPostgreSQL/servers)",
+                "Subresource": "postgresqlServer",
+                "Private DNS zone name": "privatelink.postgres.database.usgovcloudapi.net",
+                "Public DNS zone forwarders": "postgres.database.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Database for PostgreSQL - Flexible server (Microsoft.DBforPostgreSQL/flexibleServers)",
+                "Subresource": "postgresqlServer",
+                "Private DNS zone name": "privatelink.postgres.database.usgovcloudapi.net",
+                "Public DNS zone forwarders": "postgres.database.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Database for MySQL - Single Server (Microsoft.DBforMySQL/servers)",
+                "Subresource": "mysqlServer",
+                "Private DNS zone name": "privatelink.mysql.database.usgovcloudapi.net",
+                "Public DNS zone forwarders": "mysql.database.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Database for MySQL - Flexible Server (Microsoft.DBforMySQL/flexibleServers)",
+                "Subresource": "mysqlServer",
+                "Private DNS zone name": "privatelink.mysql.database.usgovcloudapi.net",
+                "Public DNS zone forwarders": "mysql.database.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Database for MariaDB (Microsoft.DBforMariaDB/servers)",
+                "Subresource": "mariadbServer",
+                "Private DNS zone name": "privatelink.mariadb.database.usgovcloudapi.net",
+                "Public DNS zone forwarders": "mariadb.database.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Cache for Redis (Microsoft.Cache/Redis)",
+                "Subresource": "redisCache",
+                "Private DNS zone name": "privatelink.redis.cache.usgovcloudapi.net",
+                "Public DNS zone forwarders": "redis.cache.usgovcloudapi.net"
+            }
+        ],
+        "Azure Service Bus (Microsoft.ServiceBus/namespaces)": [
+            {
+                "Private link resource type": "Azure Service Bus (Microsoft.ServiceBus/namespaces)",
+                "Subresource": "namespace",
+                "Private DNS zone name": "privatelink.servicebus.usgovcloudapi.net",
+                "Public DNS zone forwarders": "servicebus.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Event Grid (Microsoft.EventGrid/topics)",
+                "Subresource": "topic",
+                "Private DNS zone name": "privatelink.eventgrid.azure.us",
+                "Public DNS zone forwarders": "eventgrid.azure.us"
+            },
+            {
+                "Private link resource type": "Azure Event Grid (Microsoft.EventGrid/domains)",
+                "Subresource": "domain",
+                "Private DNS zone name": "privatelink.eventgrid.azure.us",
+                "Public DNS zone forwarders": "eventgrid.azure.us"
+            },
+            {
+                "Private link resource type": "Azure Health Data Services (Microsoft.HealthcareApis/workspaces)",
+                "Subresource": "healthcareworkspace",
+                "Private DNS zone name": "privatelink.workspace.azurehealthcareapis.usprivatelink.fhir.azurehealthcareapis.usprivatelink.dicom.azurehealthcareapis.us",
+                "Public DNS zone forwarders": "workspace.azurehealthcareapis.usfhir.azurehealthcareapis.usdicom.azurehealthcareapis.us"
+            }
+        ],
+        "Azure IoT Hub (Microsoft.Devices/IotHubs)": [
+            {
+                "Private link resource type": "Azure IoT Hub (Microsoft.Devices/IotHubs)",
+                "Subresource": "iotHub",
+                "Private DNS zone name": "privatelink.azure-devices.usprivatelink.servicebus.windows.us1",
+                "Public DNS zone forwarders": "azure-devices.usservicebus.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure IoT Hub Device Provisioning Service (Microsoft.Devices/ProvisioningServices)",
+                "Subresource": "iotDps",
+                "Private DNS zone name": "privatelink.azure-devices-provisioning.us",
+                "Public DNS zone forwarders": "azure-devices-provisioning.us"
+            }
+        ],
+        "Azure Automation / (Microsoft.Automation/automationAccounts)": [
+            {
+                "Private link resource type": "Azure Automation / (Microsoft.Automation/automationAccounts)",
+                "Subresource": "WebhookDSCAndHybridWorker",
+                "Private DNS zone name": "privatelink.azure-automation.us",
+                "Public DNS zone forwarders": "azure-automation.us"
+            },
+            {
+                "Private link resource type": "Azure Backup (Microsoft.RecoveryServices/vaults)",
+                "Subresource": "AzureBackup",
+                "Private DNS zone name": "privatelink.{regionCode}.backup.windowsazure.us",
+                "Public DNS zone forwarders": "{regionCode}.backup.windowsazure.us"
+            },
+            {
+                "Private link resource type": "Azure Site Recovery (Microsoft.RecoveryServices/vaults)",
+                "Subresource": "AzureSiteRecovery",
+                "Private DNS zone name": "privatelink.siterecovery.windowsazure.us",
+                "Public DNS zone forwarders": "{regionCode}.siterecovery.windowsazure.us"
+            },
+            {
+                "Private link resource type": "Azure Monitor (Microsoft.Insights/privateLinkScopes)",
+                "Subresource": "azuremonitor",
+                "Private DNS zone name": "privatelink.monitor.azure.usprivatelink.adx.monitor.azure.usprivatelink.oms.opinsights.azure.usprivatelink.ods.opinsights.azure.usprivatelink.agentsvc.azure-automation.usprivatelink.blob.core.usgovcloudapi.net",
+                "Public DNS zone forwarders": "monitor.azure.usadx.monitor.azure.usoms.opinsights.azure.usods.opinsights.azure.usagentsvc.azure-automation.usblob.core.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Microsoft Purview (Microsoft.Purview)",
+                "Subresource": "account",
+                "Private DNS zone name": "privatelink.purview.azure.us",
+                "Public DNS zone forwarders": "purview.azure.us"
+            },
+            {
+                "Private link resource type": "Microsoft Purview (Microsoft.Purview)",
+                "Subresource": "portal",
+                "Private DNS zone name": "privatelink.purviewstudio.azure.us",
+                "Public DNS zone forwarders": "purview.azure.compurviewstudio.azure.us"
+            }
+        ],
+        "Azure Key Vault (Microsoft.KeyVault/vaults)": [
+            {
+                "Private link resource type": "Azure Key Vault (Microsoft.KeyVault/vaults)",
+                "Subresource": "vault",
+                "Private DNS zone name": "privatelink.vaultcore.usgovcloudapi.net",
+                "Public DNS zone forwarders": "vault.usgovcloudapi.netvaultcore.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure App Configuration (Microsoft.AppConfiguration/configurationStores)",
+                "Subresource": "configurationStores",
+                "Private DNS zone name": "privatelink.azconfig.azure.us",
+                "Public DNS zone forwarders": "azconfig.azure.us"
+            }
+        ],
+        "Storage account (Microsoft.Storage/storageAccounts)": [
+            {
+                "Private link resource type": "Storage account (Microsoft.Storage/storageAccounts)",
+                "Subresource": "blobblob_secondary",
+                "Private DNS zone name": "privatelink.blob.core.usgovcloudapi.net",
+                "Public DNS zone forwarders": "blob.core.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Storage account (Microsoft.Storage/storageAccounts)",
+                "Subresource": "tabletable_secondary",
+                "Private DNS zone name": "privatelink.table.core.usgovcloudapi.net",
+                "Public DNS zone forwarders": "table.core.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Storage account (Microsoft.Storage/storageAccounts)",
+                "Subresource": "queuequeue_secondary",
+                "Private DNS zone name": "privatelink.queue.core.usgovcloudapi.net",
+                "Public DNS zone forwarders": "queue.core.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Storage account (Microsoft.Storage/storageAccounts)",
+                "Subresource": "filefile_secondary",
+                "Private DNS zone name": "privatelink.file.core.usgovcloudapi.net",
+                "Public DNS zone forwarders": "file.core.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Storage account (Microsoft.Storage/storageAccounts)",
+                "Subresource": "webweb_secondary",
+                "Private DNS zone name": "privatelink.web.core.usgovcloudapi.net",
+                "Public DNS zone forwarders": "web.core.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Data Lake File System Gen2 (Microsoft.Storage/storageAccounts)",
+                "Subresource": "dfsdfs_secondary",
+                "Private DNS zone name": "privatelink.dfs.core.usgovcloudapi.net",
+                "Public DNS zone forwarders": "dfs.core.usgovcloudapi.net"
+            }
+        ],
+        "Azure Search (Microsoft.Search/searchServices)": [
+            {
+                "Private link resource type": "Azure Search (Microsoft.Search/searchServices)",
+                "Subresource": "searchService",
+                "Private DNS zone name": "privatelink.search.azure.us",
+                "Public DNS zone forwarders": "search.azure.us"
+            },
+            {
+                "Private link resource type": "Azure Relay (Microsoft.Relay/namespaces)",
+                "Subresource": "namespace",
+                "Private DNS zone name": "privatelink.servicebus.usgovcloudapi.net",
+                "Public DNS zone forwarders": "servicebus.usgovcloudapi.net"
+            },
+            {
+                "Private link resource type": "Azure Web Apps (Microsoft.Web/sites)",
+                "Subresource": "sites",
+                "Private DNS zone name": "privatelink.azurewebsites.usscm.privatelink.azurewebsites.us2",
+                "Public DNS zone forwarders": "azurewebsites.usscm.azurewebsites.us"
+            },
+            {
+                "Private link resource type": "Azure Event Hubs (Microsoft.EventHub/namespaces)",
+                "Subresource": "namespace",
+                "Private DNS zone name": "privatelink.servicebus.usgovcloudapi.net",
+                "Public DNS zone forwarders": "servicebus.usgovcloudapi.net"
+            }
+        ]
+    },
+    "China": {
+        "Azure Machine Learning (Microsoft.MachineLearningServices/workspaces)": [
+            {
+                "Private link resource type": "Azure Machine Learning (Microsoft.MachineLearningServices/workspaces)",
+                "Subresource": "amlworkspace",
+                "Private DNS zone name": "privatelink.api.ml.azure.cnprivatelink.notebooks.chinacloudapi.cn",
+                "Public DNS zone forwarders": "api.ml.azure.cnnotebooks.chinacloudapi.cninstances.azureml.cnaznbcontent.netinference.ml.azure.cn"
+            }
+        ],
+        "Azure Data Factory (Microsoft.DataFactory/factories)": [
+            {
+                "Private link resource type": "Azure Data Factory (Microsoft.DataFactory/factories)",
+                "Subresource": "dataFactory",
+                "Private DNS zone name": "privatelink.datafactory.azure.cn",
+                "Public DNS zone forwarders": "datafactory.azure.cn"
+            },
+            {
+                "Private link resource type": "Azure Data Factory (Microsoft.DataFactory/factories)",
+                "Subresource": "portal",
+                "Private DNS zone name": "privatelink.adf.azure.cn",
+                "Public DNS zone forwarders": "adf.azure.cn"
+            },
+            {
+                "Private link resource type": "Azure HDInsight (Microsoft.HDInsight)",
+                "Subresource": "gatewayheadnode",
+                "Private DNS zone name": "privatelink.azurehdinsight.cn",
+                "Public DNS zone forwarders": "azurehdinsight.cn"
+            },
+            {
+                "Private link resource type": "Azure Data Explorer (Microsoft.Kusto/Clusters)",
+                "Subresource": "cluster",
+                "Private DNS zone name": "privatelink.{regionName}.kusto.windows.cn",
+                "Public DNS zone forwarders": "{regionName}.kusto.windows.cn"
+            }
+        ],
+        "Azure Batch (Microsoft.Batch/batchAccounts)": [
+            {
+                "Private link resource type": "Azure Batch (Microsoft.Batch/batchAccounts)",
+                "Subresource": "batchAccount",
+                "Private DNS zone name": "privatelink.batch.chinacloudapi.cn",
+                "Public DNS zone forwarders": "{region}.batch.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Azure Batch (Microsoft.Batch/batchAccounts)",
+                "Subresource": "nodeManagement",
+                "Private DNS zone name": "privatelink.batch.chinacloudapi.cn",
+                "Public DNS zone forwarders": "{region}.service.batch.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Azure Virtual Desktop (Microsoft.DesktopVirtualization/workspaces)",
+                "Subresource": "global",
+                "Private DNS zone name": "privatelink-global.wvd.azure.cn",
+                "Public DNS zone forwarders": "wvd.azure.cn"
+            },
+            {
+                "Private link resource type": "Azure Virtual Desktop (Microsoft.DesktopVirtualization/workspaces and Microsoft.DesktopVirtualization/hostpools)",
+                "Subresource": "feedconnection",
+                "Private DNS zone name": "privatelink.wvd.azure.cn",
+                "Public DNS zone forwarders": "wvd.azure.cn"
+            }
+        ],
+        "Azure SQL Database (Microsoft.Sql/servers)": [
+            {
+                "Private link resource type": "Azure SQL Database (Microsoft.Sql/servers)",
+                "Subresource": "sqlServer",
+                "Private DNS zone name": "privatelink.database.chinacloudapi.cn",
+                "Public DNS zone forwarders": "database.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "Sql",
+                "Private DNS zone name": "privatelink.documents.azure.cn",
+                "Public DNS zone forwarders": "documents.azure.cn"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "MongoDB",
+                "Private DNS zone name": "privatelink.mongo.cosmos.azure.cn",
+                "Public DNS zone forwarders": "mongo.cosmos.azure.cn"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "Cassandra",
+                "Private DNS zone name": "privatelink.cassandra.cosmos.azure.cn",
+                "Public DNS zone forwarders": "cassandra.cosmos.azure.cn"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "Gremlin",
+                "Private DNS zone name": "privatelink.gremlin.cosmos.azure.cn",
+                "Public DNS zone forwarders": "gremlin.cosmos.azure.cn"
+            },
+            {
+                "Private link resource type": "Azure Cosmos DB (Microsoft.DocumentDB/databaseAccounts)",
+                "Subresource": "Table",
+                "Private DNS zone name": "privatelink.table.cosmos.azure.cn",
+                "Public DNS zone forwarders": "table.cosmos.azure.cn"
+            },
+            {
+                "Private link resource type": "Azure Database for PostgreSQL - Single server (Microsoft.DBforPostgreSQL/servers)",
+                "Subresource": "postgresqlServer",
+                "Private DNS zone name": "privatelink.postgres.database.chinacloudapi.cn",
+                "Public DNS zone forwarders": "postgres.database.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Azure Database for PostgreSQL - Flexible server (Microsoft.DBforPostgreSQL/flexibleServers)",
+                "Subresource": "postgresqlServer",
+                "Private DNS zone name": "privatelink.postgres.database.chinacloudapi.cn",
+                "Public DNS zone forwarders": "postgres.database.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Azure Database for MySQL - Single Server (Microsoft.DBforMySQL/servers)",
+                "Subresource": "mysqlServer",
+                "Private DNS zone name": "privatelink.mysql.database.chinacloudapi.cn",
+                "Public DNS zone forwarders": "mysql.database.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Azure Database for MySQL - Flexible Server (Microsoft.DBforMySQL/flexibleServers)",
+                "Subresource": "mysqlServer",
+                "Private DNS zone name": "privatelink.mysql.database.chinacloudapi.cn",
+                "Public DNS zone forwarders": "mysql.database.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Azure Database for MariaDB (Microsoft.DBforMariaDB/servers)",
+                "Subresource": "mariadbServer",
+                "Private DNS zone name": "privatelink.mariadb.database.chinacloudapi.cn",
+                "Public DNS zone forwarders": "mariadb.database.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Azure Cache for Redis (Microsoft.Cache/Redis)",
+                "Subresource": "redisCache",
+                "Private DNS zone name": "privatelink.redis.cache.chinacloudapi.cn",
+                "Public DNS zone forwarders": "redis.cache.chinacloudapi.cn"
+            }
+        ],
+        "Azure Service Bus (Microsoft.ServiceBus/namespaces)": [
+            {
+                "Private link resource type": "Azure Service Bus (Microsoft.ServiceBus/namespaces)",
+                "Subresource": "namespace",
+                "Private DNS zone name": "privatelink.servicebus.chinacloudapi.cn",
+                "Public DNS zone forwarders": "servicebus.chinacloudapi.cn"
+            }
+        ],
+        "Azure IoT Hub (Microsoft.Devices/IotHubs)": [
+            {
+                "Private link resource type": "Azure IoT Hub (Microsoft.Devices/IotHubs)",
+                "Subresource": "iotHub",
+                "Private DNS zone name": "privatelink.azure-devices.cnprivatelink.servicebus.chinacloudapi.cn1",
+                "Public DNS zone forwarders": "azure-devices.cnservicebus.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Azure IoT Hub Device Provisioning Service (Microsoft.Devices/ProvisioningServices)",
+                "Subresource": "iotDps",
+                "Private DNS zone name": "privatelink.azure-devices-provisioning.cn",
+                "Public DNS zone forwarders": "azure-devices-provisioning.cn"
+            }
+        ],
+        "Azure Automation / (Microsoft.Automation/automationAccounts)": [
+            {
+                "Private link resource type": "Azure Automation / (Microsoft.Automation/automationAccounts)",
+                "Subresource": "WebhookDSCAndHybridWorker",
+                "Private DNS zone name": "privatelink.azure-automation.cn",
+                "Public DNS zone forwarders": "azure-automation.cn"
+            }
+        ],
+        "Azure Key Vault (Microsoft.KeyVault/vaults)": [
+            {
+                "Private link resource type": "Azure Key Vault (Microsoft.KeyVault/vaults)",
+                "Subresource": "vault",
+                "Private DNS zone name": "privatelink.vaultcore.azure.cn",
+                "Public DNS zone forwarders": "vaultcore.azure.cn"
+            }
+        ],
+        "Storage account (Microsoft.Storage/storageAccounts)": [
+            {
+                "Private link resource type": "Storage account (Microsoft.Storage/storageAccounts)",
+                "Subresource": "blobblob_secondary",
+                "Private DNS zone name": "privatelink.blob.core.chinacloudapi.cn",
+                "Public DNS zone forwarders": "blob.core.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Storage account (Microsoft.Storage/storageAccounts)",
+                "Subresource": "tabletable_secondary",
+                "Private DNS zone name": "privatelink.table.core.chinacloudapi.cn",
+                "Public DNS zone forwarders": "table.core.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Storage account (Microsoft.Storage/storageAccounts)",
+                "Subresource": "queuequeue_secondary",
+                "Private DNS zone name": "privatelink.queue.core.chinacloudapi.cn",
+                "Public DNS zone forwarders": "queue.core.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Storage account (Microsoft.Storage/storageAccounts)",
+                "Subresource": "filefile_secondary",
+                "Private DNS zone name": "privatelink.file.core.chinacloudapi.cn",
+                "Public DNS zone forwarders": "file.core.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Storage account (Microsoft.Storage/storageAccounts)",
+                "Subresource": "webweb_secondary",
+                "Private DNS zone name": "privatelink.web.core.chinacloudapi.cn",
+                "Public DNS zone forwarders": "web.core.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Azure Data Lake File System Gen2 (Microsoft.Storage/storageAccounts)",
+                "Subresource": "dfsdfs_secondary",
+                "Private DNS zone name": "privatelink.dfs.core.chinacloudapi.cn",
+                "Public DNS zone forwarders": "dfs.core.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Azure File Sync (Microsoft.StorageSync/storageSyncServices)",
+                "Subresource": "afs",
+                "Private DNS zone name": "privatelink.afs.azure.cn",
+                "Public DNS zone forwarders": "afs.azure.cn"
+            }
+        ],
+        "Azure Event Hubs (Microsoft.EventHub/namespaces)": [
+            {
+                "Private link resource type": "Azure Event Hubs (Microsoft.EventHub/namespaces)",
+                "Subresource": "namespace",
+                "Private DNS zone name": "privatelink.servicebus.chinacloudapi.cn",
+                "Public DNS zone forwarders": "servicebus.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Azure Relay (Microsoft.Relay/namespaces)",
+                "Subresource": "namespace",
+                "Private DNS zone name": "privatelink.servicebus.chinacloudapi.cn",
+                "Public DNS zone forwarders": "servicebus.chinacloudapi.cn"
+            },
+            {
+                "Private link resource type": "Azure Web Apps (Microsoft.Web/sites)",
+                "Subresource": "sites",
+                "Private DNS zone name": "privatelink.chinacloudsites.cn",
+                "Public DNS zone forwarders": "chinacloudsites.cn"
+            },
+            {
+                "Private link resource type": "SignalR (Microsoft.SignalRService/SignalR)",
+                "Subresource": "signalR",
+                "Private DNS zone name": "privatelink.signalr.azure.cn",
+                "Public DNS zone forwarders": "service.signalr.azure.cn"
+            }
+        ]
+    },
+    "Next step": {},
+    "Feedback": {},
+    "Additional resources": {}
+}
